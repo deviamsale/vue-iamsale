@@ -1,0 +1,83 @@
+//main variable
+$text                : #444444;
+$text-dark : #999999;
+// $primary-color       : #f9ba48;
+// $primary-color-hover : #f7a308;
+$primary-color       : #f9ba48;
+$primary-color-hover : #f7a308;
+$bg-color            : #f1f1f1;
+$bg-black            : #333333;
+$bg-button           : #f5f5f5;
+$border              : #666666;
+$bg-body             : #ecf0f5;
+$light-body          : #f0f2f5;
+
+// $primary-color       : #6e117d;
+// $primary-color-hover : #630f70;
+
+
+$text-content: #666666;
+$text-gray: #717c7c;
+$text-author: #999999;
+$text-title: #A1A1A1;
+$theme-color: #008ed9;
+$theme-color2: #e61d23;
+$bg-gray:#f9f9f9;
+$text-blue:#3abbc3;
+// $text-green:#48a141;
+$text-green:#1e9015;
+$bg-green:#1c6616;
+/* font variable */
+$font-Roboto-normal:'Roboto';
+$font-Roboto-bold:'Roboto-Bold';
+$font-Roboto-Black:'Roboto-Black';
+$font-Roboto-BoldItalic:'Roboto-BoldItalic';
+$font-Roboto-Italic:'Roboto-Italic';
+$font-Roboto-Light:'Roboto-Light';
+$font-Roboto-Medium:'Roboto-Medium';
+$font-Roboto-Thin:'Roboto-Thin';
+
+
+
+
+// color variable
+$gray-darker:  lighten(#000, 13.5%); // #222
+$gray-dark:    lighten(#000, 20%);   // #333
+$gray:         lighten(#000, 33.5%); // #555
+$gray-light:   lighten(#000, 46.7%); // #777
+$gray-lighter: lighten(#000, 93.5%); // #eee
+
+$primary             : darken(#428bca, 6.5%);
+$success             : #5cb85c;
+$info                : #5bc0de;
+$danger              : #e51c23;
+$warning             : #f0ad4e;
+$black               : #2d2d2d;
+$gray                : #b0bec5;
+$dark                : #e2e2e2;
+$blue                : #247abb;
+$light-blue          : #009bff;
+$green: #4997fd;
+$yellow: #ffd183;
+$red:#dc281f;
+$box-shadow:  0px 0px 6px rgba(105, 105, 105, 0.15);
+$box-shadow-hover:0 22px 60px rgba(0, 0, 0, 0.15);
+$border-radius:5px;
+$border-color: #dddddd;
+$mg-bottom:30px;
+$trans: all ease 0.5s;
+$trans-menu: all ease 0.2s;
+
+/* page variable*/
+$height-top: 100px;
+$height-menu-mobile: 60px;
+$hei-search:60px;
+$bg-left-light: #f5f3f0;
+
+$banner-dot: #d8d8d8;
+$banner-dot-border:#333333;
+
+$light: #e2e2e2;
+$white : #fff;
+$muted: #98a6ad;
+$light7: #797979;

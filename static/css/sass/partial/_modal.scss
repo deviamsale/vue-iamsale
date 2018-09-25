@@ -1,0 +1,29 @@
+.modal{
+  z-index: 999999;
+  &-cropper{
+    display: block !important;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .15s linear;
+    &.in{
+      visibility: visible;
+      opacity: 1;
+    }
+    &.modal{
+      .modal-dialog{
+        max-width: 1000px;
+        transform: scale(0.8);
+      }
+      .modal-body{
+        .crop-container{
+          height: 300px;
+          img{
+            max-height: 300px;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+
+  }
+}

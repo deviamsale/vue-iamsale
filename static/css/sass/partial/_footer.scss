@@ -1,0 +1,176 @@
+.footer{
+    background: #eeeeee;
+    color:$text;
+    // padding-top: 70px;
+    margin-top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &-partners{
+        transform: translateY(-50%);
+        background: #fff;
+        border:1px solid #eee;
+    }
+    ul{
+        padding: 0;
+        list-style-type: none;
+    }
+    &-info{
+
+        ul{
+            li{
+                display: block;
+                margin-bottom: 10px;
+                a{
+                    color:inherit;
+                    &:hover{
+                        // color:#fff;
+                    }
+                }
+                .icon{
+                    width: 20px;
+                    float: left;
+                }
+                .info{
+                    width: calc(100% - 20px);
+                    float: left;
+                }
+                &:after{
+                    @include clear;
+                }
+            }
+        }
+    }
+    &-social{
+        margin-top: 10px;
+        li{
+            margin-left: 5px;
+            display: inline-block;
+            &:first-child{
+                margin-left: 0;
+            }
+            a{
+                display: block;
+                width: 34px;
+                height: 34px;
+                padding: 0;
+                line-height: 34px;
+                border-radius: 3px;
+                text-align: center;
+                color:#fff;
+                
+            }
+            .social{
+                &-facebook{
+                    background: #3b5998;
+                }
+                &-google{
+                    background: #dd4d42
+                }
+                &-youtube{
+                    background: #ff0000
+                }
+                &-instagram{
+                    background: #da4b77
+                }
+                &-pinterest{
+                    background: #cd2026
+                }
+            }
+        }
+    }
+    &-navbar{
+        padding-top: 50px;
+        >ul{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            
+            >li{
+                width :100%;
+                float: left;
+                max-width: 200px;
+                h5{
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    color:inherit;
+                }
+                ul{
+                    li{
+                        display: block;
+                        margin-bottom: 5px;
+                        a{
+                            color:inherit;
+                            &:hover{
+                                color:$primary-color-hover;
+                            }
+                        }
+                    }
+                }
+            }
+            &:after{
+                @include clear;
+            }
+        }
+        .gov-icon{
+            max-width: 160px;
+            max-height: 160px;
+            display: inline-block;
+            img{
+                @include img;
+
+            }
+        }
+    }
+    &-logo{
+        margin-bottom: 15px;
+        display: inline-block;
+        max-height: 120px;
+        max-width: 120px;
+        img{
+            @include img;
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+    &-map{
+        width: 100%;
+        padding-top: 50px;
+        iframe{
+            height: 250px;
+            width: 100%;
+        }
+    }
+    &-copyright{
+        border-top: 1px solid #ccc;
+        margin-top: 15px;
+        padding: 15px 0;
+        text-align: center;
+        font-size: 15px;
+
+    }
+    @media(max-width:991px){
+        .footer{
+            &-social{
+                text-align: center;
+            }
+        }
+    }
+    @media(max-width:480px){
+        .footer{
+            &-navbar{
+                >ul{
+                    >li{
+                        width :100%;
+                    }
+                }
+                .text-gov-icon{
+                    // display: block;
+                    text-align: left;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

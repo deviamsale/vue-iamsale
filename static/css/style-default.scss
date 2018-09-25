@@ -1,0 +1,17 @@
+@import "sass/static/mixin";
+@import "sass/static/variables";
+$primary-color       : #bc7f56;
+$primary-color-hover : #a46941;
+$primary-color-light : #ddbfab;
+@import "sass/partial/animation";
+@import "sass/static/default";
+@import "sass/static/font";
+@import "sass/static/class";
+@import "sass/partial/header";
+@import "sass/partial/banner";
+@import "sass/partial/body";
+@import "sass/partial/footer";
+@import "sass/partial/navbar";
+@import "sass/partial/wrapper";
+@import "sass/partial/cart";
+@import "sass/partial/modal";
